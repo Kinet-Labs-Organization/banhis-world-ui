@@ -1,0 +1,214 @@
+{
+    "ad": {
+        "status": "inactive",
+        "title": "Republic Day Offers !",
+        "description": "Get upto 25% discuont on electronics products",
+        "buttonLabel": "Shop Now ↗",
+        "link": "https://www.wishlink.com/getsetshop/collection/750082"
+    },
+    "handles": [
+        {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/banhisikhasarker",
+            "image": "https://cdn-icons-png.flaticon.com/512/174/174855.png"
+        },
+        {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/banhisikha.sarker.7",
+            "image": "https://cdn-icons-png.flaticon.com/512/124/124010.png"
+        },
+        {
+            "name": "Thread",
+            "link": "https://www.threads.com/@banhisikhasarker",
+            "image": "https://images.seeklogo.com/logo-png/48/2/threads-logo-png_seeklogo-489791.png"
+        },
+        {
+            "name": "Email",
+            "link": "mailto:sarkerbanhisikha@gmail.com?subject=Query&body=👋 Hey ! How may I help you?",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png"
+        }
+    ],
+    "affiliates": [
+        {
+            "name": "Wishlink Store",
+            "link": "https://www.wishlink.com/getsetshop",
+            "image": ""
+        }
+    ],
+    "recents": [
+        {
+            "status": "active",
+            "label": "Prestige Induction Oven 🍳",
+            "link": "https://www.wishlink.com/share/nd398a"
+        },
+        {
+            "status": "active",
+            "label": "MARS Cosmic Hues Nail Paint 💅🏼",
+            "link": "https://www.wishlink.com/share/nw3xpd"
+        },
+        {
+            "status": "active",
+            "label": "MARS Lip & Cheek Tint - 04-Ruby 👄",
+            "link": "https://www.wishlink.com/share/n98w4r"
+        },
+        {
+            "status": "active",
+            "label": "Cetaphil Baby Soothing Moisturising Cream 🚼",
+            "link": "https://www.wishlink.com/share/npjssg"
+        },
+        {
+            "status": "active",
+            "label": "Faces Canada Comfy Matte Wow Liquid Lipstick - Maroon Maven 05 💄",
+            "link": "https://www.wishlink.com/share/nhurap"
+        },
+        {
+            "status": "active",
+            "label": "Earth Rhythm Butter Cream Shower Mousse Soap - Summer Rain, Cucumber Seed Oil, Cools Skin 🧴",
+            "link": "https://www.wishlink.com/share/nv9vgn"
+        },
+        {
+            "status": "active",
+            "label": "MARS Oil Blotter Gel Compact 🝆",
+            "link": "https://www.wishlink.com/share/nzzuw8"
+        },
+        {
+            "status": "active",
+            "label": "Lux Essence Of Himalayas Rose & Aloe Vera Brightening Body Wash 🛀",
+            "link": "https://www.wishlink.com/share/ngnnfc"
+        },
+        {
+            "status": "active",
+            "label": "Lux Essence Of Himalayas Lavender & Vitamin C Illuminating Body Wash 🚿",
+            "link": "https://www.wishlink.com/share/najhqg"
+        },
+        {
+            "status": "active",
+            "label": "Cetaphil Baby Massage Oil With Shea Butter 🧴",
+            "link": "https://www.wishlink.com/share/nrp68m"
+        }
+    ],
+    "brands": [
+        {
+            "name": "Nykaa",
+            "link": "https://www.wishlink.com/getsetshop/collection/749965",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Nykaa_New_Logo.svg/1280px-Nykaa_New_Logo.svg.png"
+        },
+        {
+            "name": "Nykaa Fashin",
+            "link": "https://www.wishlink.com/getsetshop/collection/749965",
+            "image": "https://www.theshoppingfriendly.com/wp-content/uploads/2025/03/Nykaa-Fashion.webp"
+        },
+        {
+            "name": "Myntra",
+            "link": "https://www.wishlink.com/getsetshop/collection/750062",
+            "image": "https://aartisto.com/wp-content/uploads/2020/11/myntra.png"
+        },
+        {
+            "name": "H&M",
+            "link": "https://www.wishlink.com/getsetshop/collection/750082",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/1280px-H%26M-Logo.svg.png"
+        },
+        {
+            "name": "Tira",
+            "link": "https://www.wishlink.com/getsetshop/collection/750082",
+            "image": "https://www.haptik.ai/hs-fs/hubfs/TIRA.webp?width=500&height=500&name=TIRA.webp"
+        },
+        {
+            "name": "Zepto",
+            "link": "https://www.wishlink.com/getsetshop/collection/750064",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zepto_Logo.svg/1280px-Zepto_Logo.svg.png"
+        },
+        {
+            "name": "Meesho",
+            "link": "https://www.wishlink.com/getsetshop/collection/750059",
+            "image": "https://static.vecteezy.com/system/resources/previews/050/816/807/non_2x/meesho-transparent-icon-free-png.png"
+        },
+        {
+            "name": "Flipkart",
+            "link": "https://www.wishlink.com/getsetshop/collection/750052",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-09/12/full/20250912175832.jpg"
+        },
+        {
+            "name": "Mamaearth",
+            "link": "https://www.wishlink.com/getsetshop/collection/750082",
+            "image": "https://images.seeklogo.com/logo-png/48/2/mamaearth-logo-png_seeklogo-487672.png"
+        }
+    ],
+    "categories": [
+        {
+            "name": "home",
+            "items": [
+                {
+                    "status": "active",
+                    "label": "Prestige Induction Oven 🍳",
+                    "link": "https://www.wishlink.com/share/nd398a"
+                }
+            ]
+        },
+        {
+            "name": "fashion",
+            "items": [
+                {
+                    "status": "active",
+                    "label": "MARS Cosmic Hues Nail Paint 💅🏼",
+                    "link": "https://www.wishlink.com/share/nw3xpd"
+                },
+                {
+                    "status": "active",
+                    "label": "MARS Lip & Cheek Tint - 04-Ruby 👄",
+                    "link": "https://www.wishlink.com/share/n98w4r"
+                },
+                {
+                    "status": "active",
+                    "label": "Faces Canada Comfy Matte Wow Liquid Lipstick - Maroon Maven 05 💄",
+                    "link": "https://www.wishlink.com/share/nhurap"
+                },
+                {
+                    "status": "active",
+                    "label": "Earth Rhythm Butter Cream Shower Mousse Soap - Summer Rain, Cucumber Seed Oil, Cools Skin 🧴",
+                    "link": "https://www.wishlink.com/share/nv9vgn"
+                },
+                {
+                    "status": "active",
+                    "label": "MARS Oil Blotter Gel Compact 🝆",
+                    "link": "https://www.wishlink.com/share/nzzuw8"
+                },
+                {
+                    "status": "active",
+                    "label": "Lux Essence Of Himalayas Rose & Aloe Vera Brightening Body Wash 🛀",
+                    "link": "https://www.wishlink.com/share/ngnnfc"
+                },
+                {
+                    "status": "active",
+                    "label": "Lux Essence Of Himalayas Lavender & Vitamin C Illuminating Body Wash 🚿",
+                    "link": "https://www.wishlink.com/share/najhqg"
+                }
+            ]
+        },
+        {
+            "name": "baby",
+            "items": [
+                {
+                    "status": "active",
+                    "label": "Cetaphil Baby Soothing Moisturising Cream 🚼",
+                    "link": "https://www.wishlink.com/share/npjssg"
+                },
+                {
+                    "status": "active",
+                    "label": "Cetaphil Baby Massage Oil With Shea Butter 🧴",
+                    "link": "https://www.wishlink.com/share/nrp68m"
+                }
+            ]
+        },
+        {
+            "name": "food",
+            "items": [
+                {
+                    "status": "active",
+                    "label": "Momo I Am Saltlake RDB Review 🍱",
+                    "link": "https://www.instagram.com/reel/DTxdFBWj9HX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                }
+            ]
+        }
+    ]
+}

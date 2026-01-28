@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaHome, FaTshirt, FaBaby, FaUtensils, FaTimes } from 'react-icons/fa';
+import meta from '../data/meta.json';
 
 function Home() {
 
@@ -7,28 +8,50 @@ function Home() {
     const [data, setData] = useState(null);
     const [selectedCategory, setSelectedCategory] = useState(null);
     const [showAd, setShowAd] = useState(false);
+    const dataFetchingMode = 'local'; // 'google-sheet-app-script' | 'supa-base' | 'local'
 
-    const getMetaData = async () => {
+    const getMetaDataFromGoogleSheetAppScript = async () => {
         try {
             setLoading(true);
-
-            // Either Google Sheet API
             const URL = 'https://script.google.com/macros/s/AKfycbyoUqPuhmbrgDhv5Z52iZSRRLc-5EOhnewDbymFO8jVH8eXg9YTIBqy6va6dPn5_J0r/exec';
             const response = await fetch(URL);
-
-            // Or Supabase Function API
-            // const URL = 'https://nitvlsqmngslgmjsyjla.supabase.co/functions/v1/metadata';
-            // const response = await fetch(URL, {
-            //     method: 'POST',
-            //     headers: {
-            //         'Authorization': 'Bearer sb_publishable_6wT8JZCDjGvmPxBWSp69Aw_U0lCJgMs',
-            //         'apikey': 'sb_publishable_6wT8JZCDjGvmPxBWSp69Aw_U0lCJgMs',
-            //         'Content-Type': 'application/json'
-            //     },
-            //     body: JSON.stringify({ "name": "Functions" })
-            // });
-
             const responseData = await response.json();
+            setData(responseData);
+            setShowAd((responseData.ad && responseData.ad.status === 'active') || false);
+            setLoading(false);
+        } catch (error) {
+            console.error('Error fetching metadata:', error);
+            setLoading(false);
+        }
+    }
+
+    const getMetaDataFromSupaBase = async () => {
+        try {
+            setLoading(true);
+            const URL = 'https://nitvlsqmngslgmjsyjla.supabase.co/functions/v1/metadata';
+            const response = await fetch(URL, {
+                method: 'POST',
+                headers: {
+                    'Authorization': 'Bearer sb_publishable_6wT8JZCDjGvmPxBWSp69Aw_U0lCJgMs',
+                    'apikey': 'sb_publishable_6wT8JZCDjGvmPxBWSp69Aw_U0lCJgMs',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ "name": "Functions" })
+            });
+            const responseData = await response.json();
+            setData(responseData);
+            setShowAd((responseData.ad && responseData.ad.status === 'active') || false);
+            setLoading(false);
+        } catch (error) {
+            console.error('Error fetching metadata:', error);
+            setLoading(false);
+        }
+    }
+
+    const getMetaDataFromLocal = async () => {
+        try {
+            setLoading(true);
+            const responseData = meta;
             setData(responseData);
             setShowAd((responseData.ad && responseData.ad.status === 'active') || false);
             setLoading(false);
@@ -39,7 +62,9 @@ function Home() {
     };
 
     useEffect(() => {
-        getMetaData();
+        if (dataFetchingMode === 'local') getMetaDataFromLocal();
+        if (dataFetchingMode === 'google-sheet-app-script') getMetaDataFromGoogleSheetAppScript();
+        if (dataFetchingMode === 'supa-base') getMetaDataFromSupaBase();
     }, []);
 
     if (loading) {
